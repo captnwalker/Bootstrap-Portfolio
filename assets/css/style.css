@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px; 
+    color: steelblue;
+    background: url("../images/ricepaper_v3.png");
+    /* Background pattern from Subtle Patterns */
+}
+
+nav {
+   
+}
+
+.card{
+    z-index: 1
+}
+
+.card-text {
+        position: relative;
+          box-shadow: 5px 10px 5px rgb(208, 214, 116);
+          background: rgb(97, 143, 180);
+          color: black;
+          font-weight: bolder;
+          font-stretch: expanded;
+          z-index: 5;
+         margin-top: -60px;
+    }
+
+
+.jumbotron {
+    background: rgb(201, 199, 199);
+}
+
+.well {
+    text-align: right;
+    font-style: italic;
+    color: steelblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* text-shadow: 2px 2px rgb(104, 104, 104); */
+    font-size: 1.5em;
+    background: rgb(245, 245, 156);  
+}
+
+.footer {
+    color: rgb(150, 150, 150);
+}
+
+.lead {
+    font-style: italic;     
+}
+
+.row-marketing {
+    box-sizing: border-box
+}
+
+//for Album
+.album {
+    padding-top: 3rem;
+    padding-bottom: 3rem; 
+    box-sizing: border-box;   
+    @media screen {
+        
+    }
+  }
+  
+  .card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+  }
+  
+  .card > img {
+    margin-bottom: .75rem;
+  }
+  
+  .card-text {
+    font-size: 85%;
+  }
+  //END Album
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
+}
+
+
+
+//Static masthead is already in bootstrap
+//sidebar float is already in bootstrap
