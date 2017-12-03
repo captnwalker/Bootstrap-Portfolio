@@ -7,8 +7,25 @@ body {
     /* Background pattern from Subtle Patterns */
 }
 
-nav {
-   
+        /* Active Links */
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: steelblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(196, 10, 140);
+}
+
+/* selected link */
+a:active {
+    color: rgb(4, 114, 46);
 }
 
 .card{
@@ -43,6 +60,7 @@ nav {
 
 .footer {
     color: rgb(150, 150, 150);
+
 }
 
 .lead {
@@ -53,7 +71,7 @@ nav {
     box-sizing: border-box
 }
 
-//for Album
+/* //for Album */
 .album {
     padding-top: 3rem;
     padding-bottom: 3rem; 
@@ -78,9 +96,12 @@ nav {
   .card-text {
     font-size: 85%;
   }
-  //END Album
+  /* //END Album */
 
-// Small devices (landscape phones, 576px and up)
+  
+  /* Media Screen */
+
+/* // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
 
 }
@@ -98,9 +119,58 @@ nav {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
     
+} */
+
+/*  */
+
+ /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+            }
+        
+            /* Extra Small Devices, Phones */ 
+            @media only screen and (min-width : 480px) {
+        
+            }
+        
+            /* Small Devices, Tablets */
+            @media only screen and (min-width : 768px) {
+        
+            }
+        
+            /* Medium Devices, Desktops */
+            @media only screen and (min-width : 992px) {
+        
+            }
+        
+            /* Large Devices, Wide Screens */
+            @media only screen and (min-width : 1200px) {
+        
+            }
+
+
+/* Media Screen */
+/* 
+@media screen and (max-width:1040px) {  
 }
 
+@media screen and (max-width:768px) {
+}
 
+@media screen and (max-width:640px) {
+}
 
-//Static masthead is already in bootstrap
-//sidebar float is already in bootstrap
+@media (max-width: 640px) {
+    #masthead {
+      position: static;
+    }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    float: none;
+    max-width: 100%;
+    }
+} */
